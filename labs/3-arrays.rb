@@ -15,3 +15,32 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+
+
+
+###### SUE CHOI ######
+
+# store my list
+my_shopping_list = ["eggs", "milk", "apples"]
+my_shopping_list << "yogurt"
+
+# store justin's list
+justins_shopping_list = ["chicken breast", "salad", "yogurt"]
+
+# cstore combined list
+combined_shopping_list = my_shopping_list + justins_shopping_list
+
+# store the list, sorted
+sorted_list = combined_shopping_list.sort
+
+# get rid of the non-unique items
+unique_list = sorted_list.uniq
+
+# write the list to the screen, each element with "buy"
+puts "Buy #{unique_list[0]}"
+puts "Buy #{unique_list[1]}"
+puts "Buy #{unique_list[2]}"
+puts "Buy #{unique_list[3]}"
+puts "Buy #{unique_list[4]}"
+puts "Buy #{unique_list[5]}"

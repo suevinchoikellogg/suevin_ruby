@@ -15,3 +15,33 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+
+#### SUE CHOI's LAB WORK ####
+# # create a random number and store it in memory
+# x = rand (1...6)
+# # create a second random number and store it in memory
+# y = rand (1...6)
+# # add the two "dice" in memory together and store the total in memory
+# z = x + y
+# # write the first dice to the screen in a user-friendly way 
+# puts x
+# # write the second dice to the screen in a user-friendly way 
+# puts y
+# # write the total to the screen in a user-friendly way 
+# puts z
+
+
+#### DO IT TOGETHER ####
+# create a random number and store it in memory
+die1 = rand (1...6)
+# create a second random number and store it in memory
+die2 = rand (1...6)
+# add the two "dice" in memory together and store the total in memory
+total = die1 + die2
+# write the first dice to the screen in a user-friendly way 
+puts "Firsts die: #{die1}"
+# write the second dice to the screen in a user-friendly way 
+puts "Second die: #{die2}"
+# write the total to the screen in a user-friendly way 
+puts "The total is: #{total}"

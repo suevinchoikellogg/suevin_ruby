@@ -7,3 +7,29 @@
 # Accessing data from the hash
 
 # More Complex Hashes
+
+
+
+##### SUE CHOI #####
+my_profile = {
+    "name" => {
+        "first" => "Brian",
+        "last" => "Eng"
+    },
+    "location" => {
+        "city" => "Chicago",
+        "state" => "Illinois"
+    },
+    "status" => "ENTR-451"
+}
+
+
+# write my city to the screen
+# puts my_profile ["location"]["state"]
+### Illinois (output)
+
+# wirte my profile to the screen
+# puts my_profile
+
+# write my name to the screen
+# puts my_profile["name"]
