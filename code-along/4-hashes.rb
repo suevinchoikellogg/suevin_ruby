@@ -25,11 +25,10 @@ my_profile = {
 
 
 # write my city to the screen
-# puts my_profile ["location"]["state"]
-### Illinois (output)
-
-# wirte my profile to the screen
-# puts my_profile
+puts my_profile ["location"]["state"]
+## Illinois (output)
 
 # write my name to the screen
-# puts my_profile["name"]
+puts my_profile["name"]["first"]
+puts my_profile["name"]
+puts my_profile

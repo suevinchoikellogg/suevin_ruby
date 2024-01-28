@@ -5,7 +5,7 @@
 # Booleans
 
 
-## Boolean Expressions
+# # Boolean Expressions
 # if 1 + 1 == 2
 #     puts "This is true"
 # end
@@ -24,9 +24,9 @@
 
 # # Combining Expressions
 # #input
-# temperature = 31
+# temperature = 91
 # precip = 0
-# # recipte
+# # recipe
 # if temperature > 60 && precip == 0
 #     puts "It's nice outside!"
 # elsif temperature <= 60 && precip == 0

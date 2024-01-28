@@ -39,10 +39,10 @@ end
 
 ####### (2) 짧게 짜는 Loop #######
 
-tacos = ["carnitas", "carne asada", "pollo", "pescado"]
-for taco in tacos
-    puts "#{taco} tacos"
-end
+# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+# for taco in tacos
+#     puts "#{taco} tacos"
+# end
 
 
 

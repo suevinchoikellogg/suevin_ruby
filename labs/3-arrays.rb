@@ -33,9 +33,11 @@ combined_shopping_list = my_shopping_list + justins_shopping_list
 
 # store the list, sorted
 sorted_list = combined_shopping_list.sort
+### ordering items alphabetically
 
 # get rid of the non-unique items
 unique_list = sorted_list.uniq
+### getting rid of overlapping items
 
 # write the list to the screen, each element with "buy"
 puts "Buy #{unique_list[0]}"

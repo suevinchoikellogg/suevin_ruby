@@ -27,11 +27,14 @@ favorite_food << "burgers"
 
 # store all of Ben's food in memroy 
 bens_food = ["kale", "sticks", "berries"]
+
 # combine mine and ben's food into one list
 combined_favorite = favorite_food + bens_food
 ### creating new array, with 7 elements in it
+
 # combined_favorite = [favorite_food, bens_food]
 ### creating new array, with 2 elements in it (favorite_food, bens_food)
+
 # puts combined_favorite[1][0]
 ### bens_food 's first item
 
